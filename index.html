@@ -1,40 +1,136 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Matcha - BEDU 2022</title>
-        <style>
-            h1{
-                color: #025157;
-            }
+       <title>Matcha - Bedu 2020 Shaker</title> 
+       <style>
+        h1 {
+            color: #025157;
+            float: inline-start;
+        }
+        .txtpromo{
+            color:#8b8b8bcc;
+        }
+        .dbtitle{
+            color: #46484c;
+        }
+        body {
+            background-color: #fffbf7;
+        }
+        button {
+            color: #fff;
+            background-color: #025157;
+        }
+        header{
+            /*margin-top: 40px;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 0px;*/
+            margin: 4px 20px 0px;
+            font-size: 0px;;
+        }
+        li{
+            display: inline;
+            margin:0px 25px;
+            color: #025157;
+        }
 
-            .promocional{
-                color:#8b8b8b;
-            }
+        .header > *{
+            display: inline-block;
+            font-size: 16px;
+            vertical-align: middle;
+            height: 100%;
+            line-height: 45px;
+            font-family: sans-serif;
+        }
 
-            button{
-                background-color: #025157;
-                color: #fff;    
-            }
-            body{
-                background-color: #fffbf7;
-            }
+        .logo{
+            width:15%
+        }
+        .logo > img{
+            width:50%;
+        }
 
-            .debajo{
-                color:#46484c;
-            }
-        </style>
+        .navbar{
+            width:70%;
+            text-align: center;
+            font-weight:500;
+        }
+
+        .actions{
+            width:15%;
+            text-align: right;
+            font-weight:600;
+        }
+
+        .actions > *{ 
+            
+            font-size: 14px;
+        }
+        .actions > a{ 
+            margin:0px 10px;
+            color:#67b54b;
+       }
+        .main{
+            margin-top: 140px;
+            text-align: center;
+        }
+
+       
+        .boton{
+            color: #fff;
+            background-color: #67b54b;
+            border: none;
+            border-radius: 5px;
+            padding: 12px 14px;
+        }
+      
+
+       </style>
     </head>
     <body>
-        <!--Aqui va el contenido de mi sitio-->
-        <h1>Build your blog. Build your business.</h1>
-        <p class="pdebajo">Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.</p>
-        <p class="promocional">Start publishing today with a free <strong>trial.<br>No credit card <strong>required.</p>
-        <form>
-            <input type="email"/>
-            <button type="submit"><!--Va a mandar los datos al servidor-->
-                Try it now&rarr;
-            </button>
-        </form>
-        <img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/4be27a080000640005083b6d/0x0.png" alt="Mi equipo"/>
+        <header class="header">
+            <a class="logo">
+                <img  src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png"/>
+            </a>
+            <nav class="navbar">
+                <ul>
+                <li>Plataform</li>
+                <li>Pricing</li>
+                <li>Customers</li>
+                <li>Resorces</li>
+                <li>About</li>
+                </ul>
+            </nav>
+            <div class="actions">
+                <a >Sign In</a>
+                <button class="boton">Star Free trial</button>
+            </div>
+
+        </header>
+        <!--   aqui va el contenido de mi sitio-->
+        <section class="main">
+            <h1>Build your blog. Build your business. lesly</h1>
+            <p class="dbtitle">Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.
+            </p>
+        
+
+            <form>
+                <input type="email"  id="email" name="email" placeholder="Enter email addres">
+                <button type="button">Try it now &rarr;</button>
+            </form>
+
+
+            <center>
+                <p class="txtpromo">Start publishing today with a 
+                    <strong>
+                        free 7-day trial.<br>No credit card required.
+                    </strong>
+                </p>
+            </center>
+            <img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/4be27a080000640005083b6d/0x0.png" alt="capterra">
+        </section>
     </body>
+    <footer>
+
+    </footer>
 </html>
