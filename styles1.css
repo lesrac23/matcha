@@ -1,0 +1,127 @@
+h1 {
+            color: #025157;
+            float: inline-start;
+            font-size: 2.5rem;
+        }
+        .txtpromo{
+            color:#8b8b8bcc;
+        }
+        .dbtitle{
+            color: #46484c;
+        }
+        body {
+            background-color: #fffbf7;
+        }
+        button {
+            color: #fff;
+            background-color: #025157;
+        }
+        header{
+            /*margin-top: 40px;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 0px;*/
+            margin: 4px 20px 0px;
+            font-size: 0px;
+        }
+        li{
+            display: inline;
+            margin:0px 25px;
+            color: #025157;
+        }
+
+        .header > *{
+            display: inline-block;
+            font-size: 16px;
+            vertical-align: middle;
+            height: 100%;
+            line-height: 45px;
+            font-family: sans-serif;
+        }
+
+        .logo{
+            width:15%
+        }
+        .logo > img{
+            width:50%;
+        }
+
+        .navbar{
+            width:70%;
+            text-align: center;
+            font-weight:500;
+        }
+
+        .actions{
+            width:15%;
+            text-align: right;
+            font-weight:600;
+        }
+
+        .actions > *{ 
+            
+            font-size: 14px;
+        }
+        .actions > a{ 
+            margin:0px 10px;
+            color:#67b54b;
+       }
+        .main{
+            margin-top: 140px;
+            text-align: center;
+        }
+
+         .conteiner{
+            display: flex;
+            flex-direction: row;
+            gap: 12px;
+         }  
+         
+         
+         .publish{
+            display: flex;
+            flex-direction: column;
+        }
+       
+
+        .conteiner_video{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+		.features{
+            margin-bottom: 120px 0;
+            padding: 60px 120px;
+            display: grid;
+            height: 600px;
+            background-color: #025157;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 500px 500px;
+            /*grid-template: repeat(2, 1fr) / (2, 1fr);*/
+            
+        }
+		
+		
+		 .feature-card{
+            display: flex;
+            background-color: #fff;
+            border-radius: 12px;
+            gap: 12px;
+        }
+
+        .boton{
+            color: #fff;
+            background-color: #67b54b;
+            border: none;
+            border-radius: 5px;
+            padding: 12px 14px;
+        }
+      
+
+
+        h3{
+            color: #025157;
+            font-family: "Alegreya", serif;
+            font-size: 1.75rem;
+        }
