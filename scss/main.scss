@@ -1,0 +1,90 @@
+@use "global.scss" as *;
+.blog{
+
+    .title{
+        color:$dark-green-title;
+        font-family: $font-title;
+    }
+
+    .process-list{
+        margin-top: 40px;
+        margin-bottom: 36px;
+        
+        .process{
+            margin-bottom:25px;
+
+            & > div{
+                
+                h3{
+                    color:$dark-green-title;
+                    margin-bottom: 0;
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+            }
+
+            .process-icon{
+                width: 60px;
+                height: 60px;
+                margin-right: 10px;
+                text-align: center;
+
+            }
+            img{
+                height: 100%;
+            }
+
+        }
+    }
+
+    button{
+        height: auto;
+        border-radius: 8px;
+        padding: 12px;
+        width: 180px;
+        margin-bottom: 15px;
+    }
+    .card-title{
+        font-size: 24px;
+        color:#4a4a4a;
+    }
+
+    .card-body{
+        & > .metadata{
+            
+            .category{
+                color:$green-light;
+            }
+
+            .read-time{
+                color: #979797;
+            }
+
+            .card-text{
+                font-size: 18px;
+                color:#4a4a4a;
+            }
+        }
+
+    }
+
+    .autor{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+
+        img{
+            border-radius: 50%;
+        }
+
+        p{
+            font-weight: 600;
+        }
+    }
+
+
+      
+    
+}

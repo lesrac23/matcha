@@ -1,0 +1,63 @@
+/**colores*/
+/**fuentes*/
+/**clases*/
+.blog .title {
+  color: #025157;
+  font-family: "Alegreya", sans-serif;
+}
+.blog .process-list {
+  margin-top: 40px;
+  margin-bottom: 36px;
+}
+.blog .process-list .process {
+  margin-bottom: 25px;
+}
+.blog .process-list .process > div h3 {
+  color: #025157;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.blog .process-list .process .process-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  text-align: center;
+}
+.blog .process-list .process img {
+  height: 100%;
+}
+.blog button {
+  height: auto;
+  border-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+.blog .card-title {
+  font-size: 24px;
+  color: #4a4a4a;
+}
+.blog .card-body > .metadata .category {
+  color: #67B54B;
+}
+.blog .card-body > .metadata .read-time {
+  color: #979797;
+}
+.blog .card-body > .metadata .card-text {
+  font-size: 18px;
+  color: #4a4a4a;
+}
+.blog .autor {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.blog .autor img {
+  border-radius: 50%;
+}
+.blog .autor p {
+  font-weight: 600;
+}/*# sourceMappingURL=main.css.map */
